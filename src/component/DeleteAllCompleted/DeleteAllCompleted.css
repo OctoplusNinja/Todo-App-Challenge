@@ -3,7 +3,7 @@
     font-weight: 600;
     font-size: 12px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .Delete-Button-Container button{
