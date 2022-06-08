@@ -13,8 +13,11 @@ class InputContainer extends Component {
   }
   handleSubmit(e) {
     e.preventDefault();
-    this.props.addTodo(this.state.todoInput);
-    this.setState({ todoInput: "" });
+    let task = this.state.todoInput.trim();
+    if (task.length) {
+      this.props.addTodo(task);
+      this.setState({ todoInput: "" });
+    }
   }
   render() {
     return (
