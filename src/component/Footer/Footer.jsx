@@ -7,13 +7,12 @@ class Footer extends Component {
       <div className="Footer">
         created by{" "}
         <a
-          href="https://devchallenges.io/portfolio/OctoplusNinja"
+          href="https://github.com/OctoplusNinja"
           target="_blank"
           rel="noopener noreferrer"
         >
           @OctoplusNinja
-        </a>{" "}
-        - devChallenges.io
+        </a>
       </div>
     );
   }
